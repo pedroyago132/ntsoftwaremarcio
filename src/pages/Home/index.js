@@ -104,7 +104,7 @@ const Home = () => {
                         <FormControl color='primary'  >
                             <Logo src='/logont.jpg' alt='id' />
                             <Title>
-                               Sistema Web de Abina Silva
+                               Sistema de Abina Silva 
                             </Title>
                             <TextField
                                 id="outlined-multiline-flexible"
