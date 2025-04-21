@@ -141,7 +141,7 @@ const Home = () => {
 
                             <div style={{ display: 'flex', gap: 7 }} >
                                 <SubTitle   >
-                                    Esqueceu sua senha?
+                                    Esqueceu sua senha ?
                                 </SubTitle>
                                 <a style={{ fontWeight: 'bold', fontSize: 16, cursor: 'pointer' }} onClick={() => navigate('/password')} >
                                     Clique Aqui
