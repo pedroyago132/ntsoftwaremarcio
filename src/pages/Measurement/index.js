@@ -753,7 +753,10 @@ transition: transform 0.3s;
                 const result = await response.json();
 
                 setMessageDataUser(result)
+               if(result.text.message){
                 setUserMessage(result.text.message)
+               }
+                
             } catch (error) {
                 console.error('Erro ao buscar dados:', error);
             }
